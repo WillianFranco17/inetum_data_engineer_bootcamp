@@ -6,15 +6,15 @@ Git es una herramienta que permite guardar, gestionar y controlar los cambios en
 
 ## Comandos que aprendí
 
-git init # Inicializa un repositorio
-git add. # Agrega archivos
-git clone <ruta del repositorio> # Clona un repositorio para subir cambios
-git checkout -b <Nombre de la rama> # Crea una rama
-git pull origin <Nombre de la rama> # Descarga y actualiza los cambios del repositorio remoto
-git commit -m "<Comentario sobre el cambio>" # Guarda cambios
-git branch <Nombre de la rama> # Crea una rama
-git flow init # Inicializa GitFlow en el repositorio
-git flow <rama> start <nombre> # Crea una rama con el respectivo el nombre, dependiendo de la rama que se crea sale desde main o develop, en el caso de ser feature y release sale desde la rama develop, para hotfix esta se genera desde la rama main
+git init # Inicializa un repositorio.
+git add. # Agrega archivos.
+git clone <ruta del repositorio> # Clona un repositorio para subir cambios.
+git checkout -b <Nombre de la rama> # Crea una rama.
+git pull origin <Nombre de la rama> # Descarga y actualiza los cambios del repositorio remoto.
+git commit -m "<Comentario sobre el cambio>" # Guarda cambios.
+git branch <Nombre de la rama> # Crea una rama.
+git flow init # Inicializa GitFlow en el repositorio.
+git flow <rama> start <nombre> # Crea una rama con el respectivo el nombre, dependiendo de la rama que se crea sale desde main o develop, en el caso de ser feature y release sale desde la rama develop, para hotfix esta se genera desde la rama main.
 git flow <rama> finish <nombre o version> # Fusiona la rama creada con la rama de la cual fue creada eliminandola despues de dicha fusion, feature se fusiona con develop, release y hotfix se fusiona con la rama main y develop y crea un tag. 
 
 ## ¿Qué es una rama y por qué se usa?
